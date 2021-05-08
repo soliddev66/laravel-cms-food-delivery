@@ -1,0 +1,263 @@
+@font-face {
+  font-family:'Bebas Neue';
+  src: url('/fonts/BebasNeue-Regular.ttf') format('truetype'),
+      url('/fonts/BebasNeue-Regular.otf') format('opentype'),
+      url('/fonts/BebasNeue-Regular.woff2') format('woff2'),
+      url("/fonts/BebasNeue-Regular.woff") format("woff");
+}
+
+.custom-container {
+  max-width: 1280px;
+  margin: auto;
+  text-align: center;
+  font-size: 146px;
+  font-style: normal;
+  color: #0c0805;
+  font-family: "Bebas Neue";
+  line-height: normal;
+  background-color: #eff0e8;
+  font-weight: 400;
+  box-sizing: border-box;
+  letter-spacing: normal;
+}
+
+.header-title {
+  padding-top: 130px;
+  line-height: 140px;
+}
+
+.header-title span {
+  padding-left: 22px;
+}
+
+.maketto-search {
+  max-width: 604px;
+  height: 110px;
+  border: 7px solid #006cd8;
+  margin: auto;
+  width: 100%;
+}
+
+.maketto-search input {
+  height: 96px;
+  border: none;
+  padding: 18px 4px 15px 16px;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #000000 !important;
+  font-family: "Bebas Neue";
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.maketto-search i {
+  color: #006cd8;
+  z-index: 1;
+  background: #FFF;
+  padding: 13px 18px 13px;
+  font-size: 69px;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-brand img {
+  height: 130px;
+  margin-left: 65px;
+}
+
+.navbar-nav .nav-link .nav-link-inner--text {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.web-menu a {
+  color: #000 !important;
+  padding: 0 5px;
+  font-size: 1.25rem;
+}
+
+.web-menu img {
+  display: inline;
+  height: 27px;
+}
+
+.web-menu {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Bebas Neue";
+  color: #000;
+}
+
+.web-menu a:last-child {
+  padding-right: 20px;
+}
+
+.mobile-menu img {
+  display: inline;
+  height: 19px;
+}
+
+.bring {
+  text-transform: uppercase;
+  color: #0c0805;
+  font-family: "Bebas Neue";
+  font-size: 207px;
+  font-weight: 400;
+  line-height: 150px;
+  margin-top: 10px;
+}
+
+.bring img {
+  display: inline;
+  width: 67px;
+  margin: 0 6px;
+}
+
+.header-subtitle {
+  color: #000000;
+  font-family: "Bebas Neue";
+  font-size: 41px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.section-profile-cover img {
+  margin: 0 auto;
+}
+
+.section-profile-cover {
+  height: initial !important;
+}
+
+.profile-cover-left-padding {
+  margin-right: -11px !important;
+}
+
+#main-content {
+  margin-top: 130px;
+}
+
+.mobile-menu {
+  color: black !important;
+  padding-right: 3px;
+}
+
+.header-title-mobile {
+  display: none;
+}
+
+.navbar-custom-menu {
+  flex-direction: row;
+  align-items: center;
+}
+
+.maketto-search div {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*
+.navbar-light .navbar-nav .nav-link {
+  margin-top: 3px;
+} */
+/* .navbar-custom-menu ul li:last-child {
+  margin-top: 6px;
+} */
+
+
+@media only screen and (max-width: 768px) {
+  .custom-container {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 112px;
+    font-style: normal;
+    color: #0d0603;
+    font-family: "Bebas Neue";
+    line-height: normal;
+    background-color: #f1f2ec;
+    font-weight: 400;
+    box-sizing: border-box;
+    letter-spacing: normal;
+    padding: 137px 35px 0px;
+  }
+  .header-title {
+    display: none;
+  }
+  .header-title-mobile {
+    display: block;
+  }
+  .bring {
+    font-size: 103px;
+    font-weight: 400;
+    color: #0d0603;
+    line-height: 112px;
+  }
+  .bring img {
+    width: 30px;
+  }
+  .header-subtitle {
+    font-size: 21px;
+    margin-bottom: 77px;
+  }
+
+  #main-content {
+    margin-top: 0px;
+    padding-top: 1rem;
+  }
+
+  .header-title-mobile {
+    line-height: 110px;
+  }
+
+  .maketto-search {
+    height: 52px;
+    border: 3px solid #0082df;
+  }
+  .maketto-search input {
+    height: 46px;
+    font-size: 37px;
+    color: #000 !important;
+    font-family: "Bebas Neue";
+  }
+
+  .maketto-search i {
+    padding: 6px 6px 7px 0;
+    font-size: 32px;
+  }
+
+  .navbar-brand img {
+    height: 55px;
+    margin-left: 12px;
+  }
+
+  .navbar-nav .nav-link .nav-link-inner--text {
+    color: #000;
+    font-size: 20px;
+    font-family: "Bebas Neue";
+    font-weight: 400;
+  }
+
+  .mobile-menu i {
+    font-size: 19px;
+  }
+
+  .navbar-custom-menu li:last-child .mobile-menu {
+    padding-right: 18px;
+  }
+
+  .mobile-menu a {
+    padding-right: 3px;
+  }
+}
